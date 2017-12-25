@@ -4,5 +4,4 @@ roslaunch hector_quadrotor_demo indoor_slam_gazebo.launch
 //Enable engines
 rosservice call /enable_motors true
 
-//to controll the hector careful to not go too high
-rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+//Enable Face Tracking Only Avalible If OpenCV is installed
