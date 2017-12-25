@@ -4,4 +4,3 @@ roslaunch hector_quadrotor_demo indoor_slam_gazebo.launch
 //Enable engines
 rosservice call /enable_motors true
 
-//Enable Face Tracking Only Avalible If OpenCV is installed
