@@ -70,6 +70,7 @@ for ritem in route_raw:
   route_point=trajectory_msgs.msg.MultiDOFJointTrajectoryPoint()
   route_point.time_from_start=rospy.Duration(ritem[0])
 
+  # BELOW CODE EDITED BY YUNUS GÜNGÖR FOR BLG456 PROJECT IN ITU (2017)
   transform=geometry_msgs.msg.Transform()
   transform.translation.x=ritem[1]
   transform.translation.y=ritem[2]

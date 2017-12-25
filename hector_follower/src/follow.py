@@ -10,6 +10,12 @@ from nav_msgs.msg import OccupancyGrid
 import tf
 from tf import transformations
 
+#BELOW CODE WRITTEN BY YUNUS GÜNGÖR FOR BLG456 PROJECT (2017)
+#
+# This module is written as a part of drone project
+# by team K1000 of BLG456E Fall 2017 Class in Istanbul Technical University
+#
+
 #This modules assumes mapping done correctly but uses 2D mapping
 #expected incoming object vector is relative to the drone's camera
 #For Example:
